@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-    s.source_files  = "ImageDownloadManager/**/*.h"
+    s.source_files  = "ImageDownloadManager/*.h"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -96,7 +96,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
-   s.ios.vendored_frameworks   = "ImageDownloadManager/ImageDownloadManager/ImageDownloadManager.framework"
+   s.ios.vendored_frameworks   = "ImageDownloadManager/ImageDownloadManager.framework"
 
 
 end
