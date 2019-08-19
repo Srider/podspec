@@ -58,7 +58,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-    s.platform     = :ios
+    s.platform = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
   #
 
   # TAG can be added later. Heres the example fror including TAG
-   s.source       = { :git => 'https://github.com/Srider/podspec.git', :branch => 'master' }
+   s.source       = { :git => 'https://github.com/Srider/ImageDownloadManager.git', :branch => 'master' }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-    s.source_files  = "ImageDownloadManager/*.h"
+    s.source_files  = "ImageDownloader/**/*.h"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -96,7 +96,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
-   s.ios.vendored_frameworks   = "ImageDownloadManager/ImageDownloadManager.framework"
+   s.ios.vendored_frameworks   = "ImageDownloader/ImageDownloadManager.framework"
 
 
 end
