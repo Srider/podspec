@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DownloadManager"
-  s.version      = "1.0"
+  s.version      = "3.0"
   s.summary      = "ImageDownloadManager own source code and library for downloading images"
   s.homepage     = "https://github.com/Srider/ImageDownloadManager"
   s.description  = <<-DESC
@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-    s.source_files  = "Downloader/1.0/**/*.h"
+    s.source_files  = "Downloader/3.0/**/*.h"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -96,7 +96,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
-   s.ios.vendored_frameworks   = "Downloader/1.0/DownloadManager.framework"
+   s.ios.vendored_frameworks   = "Downloader/3.0/DownloadManager.framework"
 
 
 end
