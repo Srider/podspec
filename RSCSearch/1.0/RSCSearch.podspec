@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-    s.source_files  = "RSCSearch/1.0/**/*.h"
+    s.source_files  = "RSCSearchAPI/1.0/**/*.h"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -96,7 +96,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
-   s.ios.vendored_frameworks   = "RSCSearch/1.0/RSCSearch.framework"
+   s.ios.vendored_frameworks   = "RSCSearchAPI/1.0/RSCSearch.framework"
 
 
 end
