@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RSCSearch"
-  s.version      = "4.0"
+  s.version      = "1.0"
   s.summary      = "RSCSearch own source code and library for searching text"
-  s.homepage     = "https://github.com/Srider/RSCSearch"
+  s.homepage     = "https://github.com/Srider/RSCSearchAPI"
   s.description  = <<-DESC
                     RSCSearch own source code and library for downloading images
                    DESC
@@ -84,7 +84,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-    s.source_files  = "RSCSearchAPI/1.0/**/*.h"
+    s.source_files  = "1.0/**/*.h"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -96,7 +96,7 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
-   s.ios.vendored_frameworks   = "RSCSearchAPI/1.0/RSCSearch.framework"
+   s.ios.vendored_frameworks   = "1.0/RSCSearch.framework"
 
 
 end
